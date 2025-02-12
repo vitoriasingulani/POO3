@@ -11,20 +11,6 @@ public class Pares {
             pares[i] = scanner.nextInt();
         }
 
-//        if (pares[0] % 2 == 0) {
-//            System.out.println("Esse numero é par");
-//        }else if (pares[1] % 2 == 0){
-//            System.out.println("Esse numero é par");
-//        }else if (pares[2] % 2 == 0){
-//            System.out.println("Esse numero é par");
-//        }else if (pares[3] % 2 == 0 ){
-//            System.out.println("Esse numero é par");
-//        }else if (pares[4] % 2 == 0 ){
-//            System.out.println("Esse numero é par");
-//        }else if (pares[5] % 2 == 0 ){
-//            System.out.println("Esse numero é par");
-//        }
-
         System.out.println("pares digitasos:");
         for (int i = 0; i < pares.length; i++) {
             if (pares[i] % 2 == 0) {
